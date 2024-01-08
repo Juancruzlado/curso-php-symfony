@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+
+        {% block stylesheets %}
+            <link href="{{ asset('assets/css/style.css')}}" type="text/css" rel="stylesheet" />
+        {% endblock %}
+
+        {% block javascripts %}
+        {% endblock %}
+    </head>
+    <body>
+    <div id="header">
+    {% block header %}
+    <h1>Recetas WebApp</h1>
+    <ul id=menu>
+        <li><a href="">Inicio</a></li>
+        <li><a href="{{ path('recetas') }}">Mis Recetas</a></li>
+        <li><a href="{{ path('login') }}">Login</a></li>
+        <li><a href="{{ path('register') }}">Registrarse</a></li>
+    </ul>
+    <div class="clearfix"></div>
+    {% if app.user %}
+    {{dump(app.user)}}
+    {% endif %}
+    </div>
+    {% endblock %}
+        {% block body %}{% endblock %}
+    </body>
+</html>

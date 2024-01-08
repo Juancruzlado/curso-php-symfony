@@ -1,0 +1,92 @@
+body{
+    background: white;
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+.example-wrapper { 
+    margin: 1em auto;
+    max-width: 800px; 
+    width: 95%; 
+    font: 18px/1.5 sans-serif;
+}
+.example-wrapper code { 
+    background: #F5F5F5;
+    padding: 2px 6px;
+}
+
+#header {
+    margin: 1em auto;
+    max-width: 880px;
+    width: 95%;
+    font: 18px/1.5 sans-serif;
+}
+
+#menu li{
+    display:block;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#menu a{
+    display:block;
+    color: #444;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+#menu li:hover{
+    background: #444;
+}
+
+#menu li:hover a{
+    color:white;
+}
+
+#menu {
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    background: #eee;
+    line-height: 50px;
+}
+
+
+label{
+    display: block;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    width: 70%;
+    padding: 8px;
+}
+
+button, 
+input[type="submit"]{
+    padding: 8px;
+    margin-top: 15px;
+    background: #00AA33;
+    color: white;
+    border: 1px solid #047425;
+    cursor:pointer;
+    transition: all 300ms;
+}
+
+button:hover,
+input[type="submit"]{
+    padding: 8px;
+    margin-top: 15px;
+    background: #047425;
+}
