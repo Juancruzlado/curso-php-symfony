@@ -20,10 +20,10 @@ Como Mejorar de manera practica.
 ----------------------------------
 - 1- Creatividad y jugar con el codigo. 
 Desafiate en 
-a: Reducir la cantidad de tiempo que tardas en escribir un codigo funcional
-b: Escribir el codigo sin mirar nada de ayuda
-c: Mezclar dos desafios en uno (ejemplo, convertir string a Datetime y evaluar ese datetime con un switch)
-d: Todas las anteriores, reducir la cantidad de tiempo en que compila el codigo, escribirlo todo sin ayuda, y mezclando dos desafios o más. Esto es lo más avanzado y dificil, no se obliguen a llegar acá tan rápido.
+- A: Reducir la cantidad de tiempo que tardas en escribir un codigo funcional
+- B: Escribir el codigo sin mirar nada de ayuda
+- C: Mezclar dos desafios en uno (ejemplo, convertir string a Datetime y evaluar ese datetime con un switch)
+- D: Todas las anteriores, reducir la cantidad de tiempo en que compila el codigo, escribirlo todo sin ayuda, y mezclando dos desafios o más. Esto es lo más avanzado y dificil, no se obliguen a llegar acá tan rápido.
 
 - 2- Ejercicios con material del curso y del repositorio de github. 
 Jugar con el codigo es decir, fijarse si borrando cada simbolo que error nos da, si funciona, si no, que otras cosas le podemos modificar o agregar antes de romperlo, que cosas podemos restarle o sumarle, como podemos entenderlo y tambien practicarlo sin ver como hacerlo, sino que tratando de hacerlo sin mirar ningun recurso de antemano, etc.
